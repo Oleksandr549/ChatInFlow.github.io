@@ -11,10 +11,7 @@
   }, 0),
     (window.FLS = !0),
     $(document).ready(function () {
-      if (
-        (new fullpage("#fullpage", {}),
-        null !== document.querySelectorAll(".element-animation"))
-      ) {
+      if (null !== document.querySelectorAll(".element-animation")) {
         function e(e) {
           e.forEach((e) => {
             e.isIntersecting
