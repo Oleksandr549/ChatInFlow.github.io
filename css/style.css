@@ -1,30 +1,51 @@
 @charset "UTF-8";
 @font-face {
-  font-family: Roboto;
+  font-family: Quicksand;
   font-display: swap;
-  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  src: url("../fonts/Quicksand-Bold.woff2") format("woff2"), url("../fonts/Quicksand-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Quicksand;
+  font-display: swap;
+  src: url("../fonts/Quicksand-Light.woff2") format("woff2"), url("../fonts/Quicksand-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: Roboto;
+  font-family: Quicksand;
   font-display: swap;
-  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: Roboto;
-  font-display: swap;
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  src: url("../fonts/Quicksand-Regular.woff2") format("woff2"), url("../fonts/Quicksand-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: Roboto;
+  font-family: quincycf;
   font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  src: url("../fonts/quincycf-bold.woff2") format("woff2"), url("../fonts/quincycf-bold.woff") format("woff");
   font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: quincycf;
+  font-display: swap;
+  src: url("../fonts/quincycf-black.woff2") format("woff2"), url("../fonts/quincycf-black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: quincycf;
+  font-display: swap;
+  src: url("../fonts/quincycf-regular.woff2") format("woff2"), url("../fonts/quincycf-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: quincycf;
+  font-display: swap;
+  src: url("../fonts/quincycf-light.woff2") format("woff2"), url("../fonts/quincycf-light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
 }
 [class*=_icon-]:before {
@@ -63,7 +84,7 @@ body {
 body {
   color: #000;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Quicksand";
   font-size: 0.875rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -75,7 +96,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Roboto";
+  font-family: "Quicksand";
   font-size: inherit;
 }
 
@@ -228,8 +249,7 @@ body {
 }
 
 .section_title {
-  background: rgb(23, 23, 73);
-  background: linear-gradient(180deg, rgb(26, 26, 64) 0%, rgb(2, 0, 36) 100%);
+  background: linear-gradient(120deg, #1c2120 0%, #343736 130%);
 }
 
 .main_title {
@@ -251,7 +271,8 @@ body {
   opacity: 1;
 }
 .main_title h1 {
-  font-size: 80px;
+  font-family: quincycf;
+  font-size: 90px;
   font-weight: bold;
   line-height: 110%;
   text-align: center;
@@ -291,8 +312,7 @@ body {
 }
 
 .section_pluses {
-  background: rgb(23, 23, 73);
-  background: linear-gradient(0deg, rgb(26, 26, 64) 0%, rgb(2, 0, 36) 100%);
+  background: linear-gradient(120deg, #1c2120 0%, #343736 130%);
 }
 
 .pluses_main {
@@ -362,8 +382,7 @@ body {
   font-weight: 400;
 }
 .section_lits {
-  background: rgb(23, 23, 73);
-  background: linear-gradient(180deg, rgb(26, 26, 64) 0%, rgb(2, 0, 36) 100%);
+  background: linear-gradient(120deg, #1c2120 0%, #343736 130%);
   position: relative;
 }
 .section_lits .bag-element {
@@ -454,8 +473,7 @@ body {
 
 .section_end {
   height: 100%;
-  background: rgb(23, 23, 73);
-  background: linear-gradient(0deg, rgb(26, 26, 64) 0%, rgb(2, 0, 36) 100%);
+  background: linear-gradient(180deg, #1c2120 0%, #0091ff 200%);
 }
 
 .end__container {

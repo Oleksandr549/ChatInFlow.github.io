@@ -12,7 +12,7 @@
     (window.FLS = !0),
     $(document).ready(function () {
       if (
-        (new fullpage("#fullpage", { autoScrolling: !0 }),
+        (new fullpage("#fullpage", {}),
         null !== document.querySelectorAll(".element-animation"))
       ) {
         function e(e) {
